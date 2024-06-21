@@ -38,7 +38,7 @@ void loop() {
 
 シリアルモニタをクリックし、「R」と入力すると、LED 13が一度点滅し、PCがArduinoからの情報「Hello World」を受信します。
 
-![テスト結果](../../assets/images/f1c6994660b58c495404e945218a31e0.png)
+![テスト結果](../../assets/images/lessons/lesson1/f1c6994660b58c495404e945218a31e0.png)
 
 ## 実験手順
 
