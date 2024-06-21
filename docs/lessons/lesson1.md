@@ -1,4 +1,6 @@
-# はじめに
+# Hello World
+
+## はじめに
 
 まずは、シンプルなことから始めましょう。このプロジェクトでは、ArduinoとUSBケーブルだけで「Hello World！」実験を始めることができます。これは、ArduinoとPCの通信テストであるだけでなく、Arduinoの世界に初めて挑戦するための入門プロジェクトでもあります！
 
@@ -12,12 +14,6 @@
 Arduinoのドライバをインストールした後、Arduinoソフトウェアを開き、Arduinoが「Hello World！」を表示するコードをコンパイルします。もちろん、Arduinoが指示なしで「Hello World！」を連続して表示するコードをコンパイルすることもできます。シンプルなif文を使用して指示を行うことができます。ピン13に接続されたオンボードLEDを使用して、Arduinoが指示を受け取ったときに最初にLEDを点滅させ、その後「Hello World！」を表示するように指示することができます。
 
 ```cpp
-/*
-keyestudio Maker learning kit
-プロジェクト1
-Hello World
-http://www.keyestudio.com
-*/
 int val; // 変数valを定義
 int ledpin = 13; // デジタルインターフェース13を定義
 
