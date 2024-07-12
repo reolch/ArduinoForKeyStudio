@@ -18,29 +18,33 @@ LED点滅実験は非常にシンプルです。以前の「Hello World！」プ
 ## 基本知識
 
 LEDは「Light Emitting Diode」の略で、シリコン、セレン、ゲルマニウムなどの半導体材料から作られた電子デバイスです。回路やデバイスで指示灯、デジタル表示、ワード表示などとして使われます。LEDにはプラス極とマイナス極があり、短い足がマイナス極、長い足がプラス極です。
-  
-![カソード・アノード](../../assets/images/lessons/lesson2/2f22f9e2552f320460e8acc0656dfec4.webp)
+
   
 
 **抵抗器**は、電流の流れを制限し調整する電子部品で、単位は（Ω）です。オーム以上の単位にはキロオーム（KΩ）とメガオーム（MΩ）があります。使用時には、抵抗の大きさだけでなく、パワーにも注意する必要があります。プロジェクトでは、抵抗器の両端のリードを90°に曲げてブレッドボードに適合させます。リードが長すぎる場合は適切な長さにカットします。
-  
-![曲げ方](../../assets/images/lessons/lesson2/ef1fa8cefad64d67d5ef1fdec488616e.png)
-  
+
+<img src="../../assets/images/lessons/lesson2/2f22f9e2552f320460e8acc0656dfec4.webp"  height="300">
+<img src="../../assets/images/lessons/lesson2/ef1fa8cefad64d67d5ef1fdec488616e.png" height="300">
+
+<div class="page"/>
 
 ブレッドボードは、回路設計を最終決定する前に回路を簡単に構築してテストするために使用されます。ブレッドボードには、ICや抵抗器などの回路部品を挿入できる多くの穴があります。典型的なブレッドボードは以下の通りです：
-![ブレットボード](../../assets/images/lessons/lesson2/60320001.webp)
-![ブレットボード仕組み](../../assets/images/lessons/lesson2/213.jpg)
+
+<img src="../../assets/images/lessons/lesson2/60320001.webp" width="50%">
+
+<img src="../../assets/images/lessons/lesson2/213.jpg" width="50%">
+
+<div class="page"/>
 
 ## 回路接続
 
 実験の回路図リンクから以下の図を参照します。ここではデジタルピン10を使用します。LEDに220Ωの抵抗を接続して、LEDに高い電流が流れて破損するのを防ぎます。
-  
-![回路図](../../assets/images/lessons/lesson2/12790d7322d1ed49c8636ccf9d7bcd54.webp)
-  
-![実体配線図](../../assets/images/lessons/lesson2/0ac528a8602695b84e95595b722db43e.webp)
-  
-V4.0用の接続：
-![実体配線図 for Arduino Uno R3](../../assets/images/lessons/lesson2/a89b0a9f3a2dfe2847e2ec138de8db4a.webp)
+
+<img src="../../assets/images/lessons/lesson2/12790d7322d1ed49c8636ccf9d7bcd54.webp" width="33%">
+
+<img src="../../assets/images/lessons/lesson2/0ac528a8602695b84e95595b722db43e.webp" width="33%">
+
+<img src="../../assets/images/lessons/lesson2/a89b0a9f3a2dfe2847e2ec138de8db4a.webp" width="33%">
   
 
 ## サンプルコード
