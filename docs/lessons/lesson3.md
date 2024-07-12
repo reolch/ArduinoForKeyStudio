@@ -23,26 +23,29 @@
 ## サンプルコード
 
 ```cpp
-int ledPin = 11; // デジタルピン11を定義
+int ledPin = 11;
 
 void setup()
 {
-  pinMode(ledPin, OUTPUT); // LEDピンを出力として定義
+  pinMode(ledPin, OUTPUT);
 }
 
 void loop()
 {
-  for (int a=0; a<=255; a++) // LEDを徐々に明るくする
+  // LEDを徐々に明るくする
+  for (int a=0; a<=255; a++) 
   {
-    analogWrite(ledPin, a); // LEDをオンにし、明るさを調整（0-255の範囲、255が最も明るい）
-    delay(10); // 0.01秒待機
+    analogWrite(ledPin, a); 
+    delay(10);
   }
-  for (int a=255; a>=0; a--) // LEDを徐々に暗くする
+
+  // LEDを徐々に暗くする
+  for (int a=255; a>=0; a--) 
   {
-    analogWrite(ledPin, a); // LEDをオンにし、明るさを調整（0-255の範囲、255が最も明るい）
-    delay(10); // 0.01秒待機
+    analogWrite(ledPin, a); 
+    delay(10);
   }
-  delay(1000); // 1秒待機
+  delay(1000);
 }
 ```
 
