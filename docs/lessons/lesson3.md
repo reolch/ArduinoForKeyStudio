@@ -14,13 +14,11 @@
 ## 接続図
 
 **V4.0の接続：**
-![回路図](../../assets/images/lessons/lesson3/connectionDiagram.webp)
-![見取り図1](../../assets/images/lessons/lesson3/connectionDiagram%20physix.webp)
-![見取り図1](../../assets/images/lessons/lesson3/0b84c109b56cef032b85631efd27987a.webp)
 
-**MEGA 2560の接続：**
-
-[ここにMEGA 2560の接続図を挿入]
+<img src="../../assets/images/lessons/lesson3/connectionDiagram.webp" width="33%">
+<img src="../../assets/images/lessons/lesson3/connectionDiagram%20physix.webp" width="33%">
+<img src="../../assets/images/lessons/lesson3/0b84c109b56cef032b85631efd27987a.webp" width="33%">
+<div class="page"/>
 
 ## サンプルコード
 
